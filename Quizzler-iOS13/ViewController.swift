@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     if questionNumber + 1 < qize.count{
         print(questionNumber, qize.count)
         questionNumber += 1
-        
+        progressBar.progress = Float(questionNumber - 1) / Float(qize.count)
     }
     else {
       questionNumber = 0
