@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct QuizBrain {
-    <#fields#>
-}
+//struct QuizBrain {
+//    <#fields#>
+//}

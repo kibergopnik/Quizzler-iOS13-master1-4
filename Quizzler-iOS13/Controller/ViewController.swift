@@ -33,17 +33,10 @@ class ViewController: UIViewController {
         
         
     var  questionNumber = 0
-
-    var timer = Timer()
-    var totalTime = 0
-    var secondsPassed = 0
-
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-  updateUI()
+        updateUI()
     }
 @IBAction func answerButtonPressed(_ sender: UIButton) {
     let userAnswer = sender.currentTitle //True,False
